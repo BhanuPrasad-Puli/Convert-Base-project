@@ -3,6 +3,7 @@ let outputText = document.getElementById("outputElement");
 let fromBase = document.getElementById("fromBaseElement");
 let toBase = document.getElementById("toBaseElement");
 let btn = document.getElementById("buttonElement");
+let swapButton = document.getElementById("Swap-btn");
 
 
 
@@ -109,4 +110,10 @@ btn.addEventListener("click",() => {
 
 
 
+})
+
+swapButton.addEventListener("click",()=>{
+    let temp = fromBase.value;
+    fromBase.value = toBase.value;
+    toBase.value =temp;
 })
