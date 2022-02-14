@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    background: rgb(47, 213, 255);
+    text-align: center;
+  }
+  header{
+    text-decoration:solid;
+  }
+ .container{
+   background-color:white;  
+   height: 400px;
+   margin: 20px auto;
+   padding: 20px;
+   width: 400px;border-radius: 30px;
+   border: solid 2px rgb(15, 228, 210);
+
+ }
+ .input-text > input{
+  background-color:beige;
+  height: 30px;
+  width: 200px;
+}
+ .baseSelection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+ }
+ .output > input{
+   background-color:beige;
+   height: 30px;
+   width: 200px;
+ }
+ .output > h2{
+   text-decoration: underline;
+
+ }
+ .input-text > h2{
+  text-decoration: underline;
+ }
+ .fromBase{
+   padding: 10px;
+ }
+ .btn{
+   margin-top: 30px;
+ }
+ .toBase{
+  padding: 10px;
+ }
+ .btn > button{
+   background-color: rgb(255, 238, 0);
+   height: 30px;
+   width: 70px;
+   border-radius: 5px;
+   border-style:solid;
+ }
+ .btn > button:hover{
+   cursor: pointer;
+ }
